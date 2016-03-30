@@ -1,3 +1,44 @@
-form{
-	text-align: center;
+h1{
+	font-size: 50px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 51px;
 }
+h2{
+	font-family:  serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	font-style: italic;
+	margin: 10px 0 10px 0;
+}
+
+a{
+	font-size: 18px;
+	line-height: 23px;
+	font-family: serif;
+	margin: 10px;
+}
+
+body{
+	text-align: center;
+	margin-top: 50px;
+}
+a, h1,h2,p,input{
+	color: #555;
+}
+
+div[role="banner"]{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+}
+div[role="footer"]{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	height: 40px;
+}
+

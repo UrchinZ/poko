@@ -1,0 +1,28 @@
+@import url("main.css");
+
+#selection{
+	font-size: 15px;
+	height: 24px;
+	width: 300px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #CCC;
+	text-align: center;
+}
+
+#button{
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #EEE;
+	margin: 5px;
+	border-style: solid;
+	border-color: #EEE;
+	border-bottom: #CCC;
+}
+#button:hover{
+	background-color: #FFF;
+}
+
+#center{
+	height: 400px;
+}

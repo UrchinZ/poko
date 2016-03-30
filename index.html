@@ -6,19 +6,26 @@
 	<!--JS-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
-
 	<!-- CSS-->
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
 <div role = "banner">
 <a href = "index.html">Blog</a>
-<a href="#">Login</a>
+<a href="./pages/login.html">Login</a>
 </div>
-<form method="post" name="search_form" id = "search_form" action="">
-	<img id = "index_img" src="./images/1.jpg" alt = "front imge">
-	<p id = "quote">Good morning!</p>
-	<input type="text" value = "Tell me your mood"><input type="button" id = "smile" value="smile"></input>
+<form method="post" name="search_form" id = "search_form">
+	<h1>Poko Cafe</h1>
+	<div id = "center">
+	<img id = "index_img" src="./images/1.jpg" alt = "front image">
+	</div>
+	<select id = "selection">
+		<option value = "pages/login.html">Have a seat?</option>
+		<option value = "pages/calm.html">Doing some work/Calm</option>
+		<option value = "pages/fun.html">Browsing the site/Having fun</option>
+		<option value = "pages/consult.html">Need some advice</option>
+	</select>
+	<input type="submit" id = "button" value="smile"></input>
 </form>
 <div role = "footer">
 <a href="#">About</a>
